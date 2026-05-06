@@ -1,5 +1,5 @@
 :8080 {
-	root * /app/dist/Ethara-Test/browser
+	root * /app/dist/browser
 	file_server
 	try_files {path} /index.html
 }

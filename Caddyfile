@@ -1,0 +1,11 @@
+{
+	order static before respond
+}
+
+:8080 {
+	root * /app/browser
+	encode gzip
+	file_server
+	try_files {path} /index.html
+	header Cache-Control "public, max-age=3600"
+}

@@ -29,7 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "outputMode": "browser"
+            "outputMode": "static"
           },
           "configurations": {
             "production": {

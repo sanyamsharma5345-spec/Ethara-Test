@@ -1,7 +1,3 @@
-{
-	order static before respond
-}
-
 :8080 {
 	root * /app/browser
 	encode gzip
